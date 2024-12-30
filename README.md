@@ -60,143 +60,154 @@ STEP 4: <br/>
 
 <p align="center">In this stage, I click the "START" button, which allows me to start the virtual machine. As you can see, I was greeted with an error message stating that there is no "Operating System" to boot the virtual machine. To overcome this particular issue, I must boot the Virtual Machine's with an actual ISO. To pick the ISO, I clicked the small arrow icon on the right side, followed by the small "Folder" icon at the bottom. After choosing the "Folder" icon, I'll be able to choose an ISO.</p>
 
+
+<br />
+<br />
+
+<p align="center">
+<img src="https://i.imgur.com/GSaan0n.png" height="70%" width="70%"/> </p>
+
+
+<p align="center">Here I was led to my actual ISO file, and I picked it. I obtained the ISO file for free from Google and saved it in my "Downloads" folder. This ISO contains the Operating System, which will enable the Virtual Machine to run Windows 10.</p>
+
+<br />
+<br />
+
+
+<p align="center"> 
+<img src="https://i.imgur.com/fEEASpY.png" height="50%" width="50%"/> </p>
+
+
+<p align="center">As you can see, the ISO file has been selected and is ready to be mounted on the Virtual Machine. In this stage, I'll click the "Mount and Retry Boot" option, which will allow the Virtual Machine to boot with the new Operating System.</p>
+
+<br />
+<br />
+
+
+<p align="center"> 
+<img src="https://i.imgur.com/7KnIUFw.png" height="70%" width="70%"/> </p>
+
+
+<p align="center">The new operating system has been successfully installed on the virtual machine. As you can see, the Virtual Machine is booting up the Windows 10 operating system.</p>
+
 <hr width="100%" size="2">
 
 <br />
 
 <p align="center"> 
 STEP 5: <br/>
-<img src="https://i.imgur.com/GRMn16p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> </p>
+<img src="https://i.imgur.com/kQpQdgJ.png" height="70%" width="70%"/> </p>
 
 
-<p align="center">As you can see, I've successfully added a virtual machine into the lab-based project. The next thing to do will be to launch the Virtual Machine and load an ISO so that it can execute an operating system.</p>
+<p align="center">The Virtual Machine has been successfully loaded with Windows 10. As you can see, I'm on the basic installation page, where I can configure the VM based on my requirements. In this situation, I clicked the "NEXT" button to go to the next stage.</p>
 
 <br />
-
+<br />
 
 <p align="center"> 
-<img src="https://i.imgur.com/bpliGZ1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> </p>
+<img src="https://i.imgur.com/QF3zKRi.png" height="70%" width="70%"/> </p>
+
+<p align="center">In this phase, Windows prompts me for a product key before installing Windows 10. I do not have a product key for lab reasons, therefore I click "I DON'T HAVE A PRODUCT KEY".</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/HlKmtpr.png" height="70%" width="70%"/> </p>
+
+<p align="center">Here, it asks me the version of Windows 10 I want to install. In this instance, I chose "Windows 10 Pro" because it is the most suited version for the lab's needs. This version of Windows 10 allows the virtual machine to be added to a domain, but the others do not.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/k7MdNDf.png" height="70%" width="70%"/> </p>
+
+<p align="center">Here it's asking me to choose the type of installation to execute. There are just two options: "upgrade" or "custom install" the OS. In this case, I opt for the second option because I want to install the OS rather than upgrade it.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/aHPxirs.png" height="70%" width="70%"/> </p>
+
+<p align="center">In this phase, it asks where I want to install Windows 10. As you can see, I only have one hard drive, "DRIVE 0", and it has 25GB of empty space. In this instance, I click "DRIVE 0" and move on to the next stage.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/qPfM3Mu.png" height="70%" width="70%"/> </p>
+
+<p align="center">Finally, the Windows 10 operating system is being installed on the virtual machine, as shown in the image above. The installation procedure will progress through several stages, and once completed, I will be given the choice to move to the next step.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/MD81AAD.png" height="70%" width="70%"/> </p>
+
+<p align="center">As you can see, Windows 10 has been installed, and it is now time to configure the operating system's basic settings. In this situation, it's asking about the region and keyboard layout. I leave everything at its default settings and move on to the next phase.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/Oj1oiay.png" height="70%" width="70%"/> </p>
+
+<p align="center">Here, I select "SET UP FOR PERSONAL USE" because this is a lab-based project and not intended for a real organisation environment.</p>
 
 
-<p align="center">I click the "START" button, which allows me to start the virtual machine. As you can see, I was greeted with an error message indicating that there is no "Operating System" to boot the virtual machine.</p>
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/TvfaAm6.png" height="70%" width="70%"/> </p>
+
+<p align="center">Here I've created a temporary local user account since I'll later enable the "Administrator" account to grant extra privileges to this device. I added the user name as "User" and continued without adding a password. I'll add the password later as I work on this project. </p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/My8lV6C.png" height="70%" width="70%"/> </p>
+
+<p align="center">It is now finalising all of the configurations I have set. This will take a few minutes, but once completed, Windows 10 will be successfully installed on the virtual machine.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/lyUFEwc.png" height="70%" width="70%"/> </p>
+
+<p align="center">As you can see, Windows 10 was successfully installed on the VM. Later, I will link this device to a domain and utilise it as a Helpdesk account.</p>
 
 <hr width="100%" size="2">
 
 <br />
 
 <p align="center"> 
-STEP 6: <br/>
-<img src="https://i.imgur.com/StLqrW0.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> </p>
+STEP 6 (Creating a 3rd VM and Installing Windows 10 for Employee Client Device): <br/>
+<img src="https://i.imgur.com/xqgtys0.png" height="70%" width="70%"/> </p>
 
 
-<p align="center">To overcome the previously mentioned issue, I must select an ISO to boot the system of the Virtual Machine. To select the ISO, I clicked the small arrow icon on the right side, followed by the small "Folder" icon at the bottom. After choosing the "Folder" icon, I'll be able to choose an ISO.</p>
-
-<br />
-
-<p align="center"> 
-<img src="https://i.imgur.com/P3owG3c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> </p>
-
-<p align="center">I got directed to my actual ISO file, and I selected it. I obtained the ISO file for free from Google and saved it in my "Downloads" folder. This ISO contains the operating system that will enable the Virtual Machine to run Windows Server 2016.</p>
-
-<hr width="100%" size="2">
-
-<br />
-
-<p align="center"> 
-STEP 7: <br/>
-<img src="https://i.imgur.com/y3AXOJM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> </p>
-
-
-<p align="center">As you can see, the ISO file has been selected and is ready to be mounted on the Virtual Machine. In this stage, I'll click the "Mount and Retry Boot" option, which will enable the Virtual Machine to boot with the new Operating System.</p>
-
-<br />
-
-<p align="center"> 
-<img src="https://i.imgur.com/mXA8jNJ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/> </p>
-
-
-<p align="center">The new operating system has been successfully loaded on the virtual machine. As you can see, the Virtual Machine is booting up the Windows operating system.</p>
-
-<hr width="100%" size="2">
-
-
-<br />
-
-<p align="center"> 
-STEP 8: <br/>
-<img src="https://i.imgur.com/BZ1ZMPT.png" height="70%" width="70%"/> </p>
-
-
-<p align="center">The Virtual Machine has been successfully loaded with the Windows operating system. As you can see, I'm on the initial setup page, where I can configure the VM based on my requirements. In this instance, I click the "NEXT" button to proceed to the next step.</p>
-
-<br />
-<br />
-
-<p align="center"> 
-<img src="https://i.imgur.com/yV20weV.png" height="70%" width="70%"/> </p>
-
-
-<p align="center">It's asking me which version of Windows to select. In this instance, I selected the second option. The reason for this is that the second option contains a GUI interface, which makes it easier for me to navigate the OS. I did not select the first choice because it lacks a GUI and will make it more difficult for me to manage the Virtual Machine. After selecting the version to install, I clicked "NEXT" to move on to the next stage.</p>
-
-<br />
-<br />
-
-<p align="center"> 
-<img src="https://i.imgur.com/Dyf6B6N.png" height="70%" width="70%"/> </p>
-
-
-<p align="center">It's asking me to choose the type of installation to execute. There are just two options: "upgrade" or "custom install" the OS. In this case, I opt for the second option because I am interested in installing the OS rather than upgrade it.</p>
-
-<br />
-<br />
-
-<p align="center"> 
-<img src="https://i.imgur.com/mVOUcnw.png" height="70%" width="70%"/> </p>
-
-
-<p align="center">In this phase, it asks where I would like to install Windows. As you can see, I just have one hard drive, "DRIVE 0", and it has 32GB of free space. In this instance, I click "DRIVE 0" and move on to the next stage.</p>
+<p align="center">I need to add an additional VM for this project. I'd like to add this virtual machine so that I can manage it from Active Directory using the "Helpdesk" account, allowing me to practise with "Active Directory Users and Computers". I'll also add the device to the domain.
+As you can see, I have added the new device to the VirtualBox software. The device is called "Desktop2" and will function as a standard employee client within the domain. I upgraded the device with 2GB of RAM, one CPU core, and 30GB of hard disk capacity. I've also loaded "Windows 10" Pro on the device, and this version of Windows 10 allows me to add the device to the domain.</p>
 
 
 <br />
 <br />
 
 <p align="center"> 
-<img src="https://i.imgur.com/GbG21Vk.png" height="70%" width="70%"/> </p>
+<img src="https://i.imgur.com/mNaWdu4.png" height="70%" width="70%"/> </p>
 
-
-<p align="center">Finally, the Operating System (OS) is being installed, as shown in the image above. The installation procedure will progress through several stages, and once completed, I will be given the choice to move to the next step.</p>
-
-
-<br />
 <br />
 
 <p align="center"> 
-<img src="https://i.imgur.com/E1IAkvI.png" height="70%" width="70%"/> </p>
+<img src="https://i.imgur.com/sY3Fzoy.png" height="70%" width="70%"/> </p>
 
 
-<p align="center">The installation is complete, and it is now requiring me to set up a password for the local "Administrator" account, which will be used to access the Server VM I've typed the password and set it to "Office123". I then hit "Finish" to conclude the OS installation process for this VM.</p>
-
-<br />
-<br />
-
-<p align="center"> 
-<img src="https://i.imgur.com/W7V6nPb.png" height="70%" width="70%"/> </p>
-
-
-<p align="center">The installation is complete, and it is now requiring me to set up a password for the local "Administrator" account, which will be used to access the Server VM I've typed the password and set it to "Office123". I then hit "Finish" to conclude the OS installation process for this VM.</p>
-
-
-<br />
-<br />
-
-<p align="center"> 
-<img src="https://i.imgur.com/n5P8cEl.png" height="70%" width="70%"/> </p>
-
-
-<p align="center">This section appeared automatically after signing into the Virtual Machine. As you can see, this is the "Server Manager" section, which is crucial because it will allow me to install "Active Directory", create a domain, and carry out a variety of other things required for this lab-based project.</p>
-
-
-
+<p align="center">As you can see, Windows 10 has been installed on the third VM. The device was in the process of being installed in the first image above, and it successfully started up with Windows 10 in the second image below.</p>
 
 
 
